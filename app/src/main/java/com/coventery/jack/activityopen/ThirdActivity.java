@@ -19,6 +19,11 @@ public class ThirdActivity extends AppCompatActivity {
         String message = intent.getStringExtra("Passthrough");
         TextView aText = (TextView) findViewById(R.id.text2);
         aText.setText(message);
+
+        String message2 = intent.getStringExtra("SecondText");
+        TextView bText = (TextView) findViewById(R.id.text3);
+        bText.setText(message2);
+
     }
 
 }

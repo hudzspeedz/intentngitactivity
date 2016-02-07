@@ -30,9 +30,11 @@ public class MainActivity extends AppCompatActivity {
         Button bButton = (Button) findViewById(R.id.button2);
         bButton.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
+                String test = "Useing a string to change text";
                 Intent intent2 = new Intent(MainActivity.this, ThirdActivity.class);
                 intent2.setFlags(intent2.FLAG_ACTIVITY_CLEAR_TOP);
-                intent2.putExtra("Passthrough","this message is from main class on create");
+                intent2.putExtra("Passthrough", "this message is from main class on create");
+                intent2.putExtra("SecondText",test);
                 startActivity(intent2);
             }
         });
