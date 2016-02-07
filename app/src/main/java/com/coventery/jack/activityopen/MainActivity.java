@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
+import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -30,7 +31,8 @@ public class MainActivity extends AppCompatActivity {
         Button bButton = (Button) findViewById(R.id.button2);
         bButton.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
-                String test = "Useing a string to change text";
+                EditText inputtext = (EditText) findViewById(R.id.inputtext);
+                String test = inputtext.getText().toString();
                 Intent intent2 = new Intent(MainActivity.this, ThirdActivity.class);
                 intent2.setFlags(intent2.FLAG_ACTIVITY_CLEAR_TOP);
                 intent2.putExtra("Passthrough", "this message is from main class on create");
