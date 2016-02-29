@@ -3,4 +3,31 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_second">SecondActivity</string>
     <string name="title_activity_third">ThirdActivity</string>
+    <string name="title_activity_web">WebActivity</string>
+    <string name="title_activity_fragtivity">Fragtivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_rotatefrag">Rotatefrag</string>
+    <string name="title_activity_layouts">Layouts</string>
+    <string name="title_activity_my_widgets">MyWidgets</string>
+    <string name="title_activity_progress_bar">ProgressBar</string>
+    <string name="title_activity_main_list">MainListActivity</string>
+
+    <string-array name="first_names">
+        <item>Dwight</item>
+        <item>John</item>
+        <item>Lyndon</item>
+        <item>Richard</item>
+        <item>Gerald</item>
+        <item>Jimmy</item>
+        <item>Ronald</item>
+        <item>George</item>
+        <item>Bill</item>
+        <item>George</item>
+        <item>Barack</item>
+
+    </string-array>
+
+
 </resources>

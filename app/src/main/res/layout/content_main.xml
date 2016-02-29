@@ -44,4 +44,58 @@
         android:layout_below="@+id/button2"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To static fragments"
+        android:id="@+id/fragbutton"
+        android:layout_below="@+id/inputtext"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="todynam frg"
+        android:id="@+id/fragdbutton"
+        android:layout_below="@+id/fragbutton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To layouts task"
+        android:id="@+id/layoutbutt"
+        android:layout_below="@+id/fragdbutton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="to Widgets and views"
+        android:id="@+id/button5"
+        android:layout_below="@+id/layoutbutt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To progress bar"
+        android:id="@+id/progressbutt"
+        android:layout_below="@+id/listbutt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mainlistbutton"
+        android:id="@+id/listbutt"
+        android:layout_below="@+id/button5"
+        android:layout_alignRight="@+id/progressbutt"
+        android:layout_alignEnd="@+id/progressbutt" />
 </RelativeLayout>
