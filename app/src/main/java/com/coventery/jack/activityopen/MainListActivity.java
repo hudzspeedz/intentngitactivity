@@ -36,6 +36,10 @@ public class MainListActivity extends ListActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        for (int i =0; i<presidentsFullName.length; i++)
+        {
+            presidents.add(new Presidents(presidentsFirstName[i],presidentsFullName[i]));
+        }
         //setContentView(R.layout.activity_main_list);
         presidentsFirstName = getResources().getStringArray(R.array.first_names);
      //setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, presidents));
